@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de desarrollo de software">
+  <title>Mi Portafolio | Marco Figueroa</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  >
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">
+        <span class="brand-dot"></span> Marco.dev
+      </a>
+
+      <button
+        class="navbar-toggler border-0"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuPrincipal"
+        aria-controls="menuPrincipal"
+        aria-expanded="false"
+        aria-label="Abrir menú"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#educacion">Educación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-primary nav-contact-btn" href="#contacto">Contáctame</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <section id="inicio" class="hero-section">
+      <div class="hero-shape hero-shape-one"></div>
+      <div class="hero-shape hero-shape-two"></div>
+
+      <div class="container position-relative">
+        <div class="row align-items-center min-vh-100 py-5">
+          <div class="col-lg-7 hero-content reveal">
+            <span class="hero-badge">
+              <i class="bi bi-code-slash"></i>
+              Estudiante de Desarrollo de Software
+            </span>
+
+            <h1 class="display-3 fw-bold mt-4">
+              Hola, soy <span class="gradient-text">Marco</span>
+            </h1>
+
+            <p class="hero-subtitle mt-3">
+              Me gusta crear soluciones digitales, aprender nuevas tecnologías
+              y convertir ideas en proyectos funcionales.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="#proyectos" class="btn btn-primary btn-lg hero-btn">
+                Ver proyectos
+                <i class="bi bi-arrow-right ms-2"></i>
+              </a>
+              <a href="#contacto" class="btn btn-outline-light btn-lg hero-btn">
+                Contactarme
+              </a>
+            </div>
+
+            <div class="hero-mini-stats mt-5">
+              <div>
+                <strong>8+</strong>
+                <span>Tecnologías</span>
+              </div>
+              <div>
+                <strong>3+</strong>
+                <span>Proyectos</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Aprendizaje</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 mt-5 mt-lg-0 reveal">
+            <div class="code-card">
+              <div class="code-card-header">
+                <div class="code-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <small>portfolio.js</small>
+              </div>
+
+              <div class="code-card-body">
+                <p><span class="code-purple">const</span> developer = {</p>
+                <p class="ps-4">nombre: <span class="code-green">'Marco'</span>,</p>
+                <p class="ps-4">carrera: <span class="code-green">'Software'</span>,</p>
+                <p class="ps-4">aprendiendo: <span class="code-green">'Node.js'</span>,</p>
+                <p class="ps-4">objetivo: <span class="code-green">'Crear soluciones'</span></p>
+                <p>};</p>
+                <p class="mt-4"><span class="code-blue">console</span>.log(developer);</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section-padding">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">CONÓCEME</span>
+          <h2 class="section-title">Sobre mí</h2>
+          <p class="section-description">
+            Un poco sobre quién soy y lo que me interesa dentro del desarrollo de software.
+          </p>
+        </div>
+
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5 reveal">
+            <div class="about-visual">
+              <div class="about-icon">
+                <i class="bi bi-person-workspace"></i>
+              </div>
+              <div class="floating-tag tag-one">Node.js</div>
+              <div class="floating-tag tag-two">JavaScript</div>
+              <div class="floating-tag tag-three">Bases de datos</div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 reveal">
+            <div class="about-card">
+              <p>
+                Soy estudiante de <strong>Diseño y Desarrollo de Software</strong>.
+                Me interesa aprender nuevas tecnologías y utilizarlas para crear
+                aplicaciones que solucionen problemas reales.
+              </p>
+              <p>
+                Durante mi formación he trabajado con programación, desarrollo web,
+                bases de datos y servidores. También me gusta seguir practicando
+                mediante proyectos que me permitan mejorar poco a poco.
+              </p>
+
+              <div class="row g-3 mt-2">
+                <div class="col-sm-6">
+                  <div class="info-pill">
+                    <i class="bi bi-mortarboard"></i>
+                    Estudiante de TECSUP
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="info-pill">
+                    <i class="bi bi-geo-alt"></i>
+                    Arequipa, Perú
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="info-pill">
+                    <i class="bi bi-laptop"></i>
+                    Desarrollo de Software
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="info-pill">
+                    <i class="bi bi-lightbulb"></i>
+                    Aprendizaje continuo
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section-padding soft-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">MI CAMINO</span>
+          <h2 class="section-title">Experiencia</h2>
+          <p class="section-description">
+            Experiencias académicas que me han permitido aplicar lo aprendido.
+          </p>
+        </div>
+
+        <div class="timeline-wrap">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2025 - Actualidad</span>
+              <h3>Proyectos académicos de desarrollo</h3>
+              <p>
+                Desarrollo de aplicaciones, páginas web y ejercicios de programación
+                utilizando distintas tecnologías y metodologías aprendidas en clase.
+              </p>
+              <div class="timeline-tags">
+                <span>Frontend</span>
+                <span>Backend</span>
+                <span>Base de datos</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Formación práctica</span>
+              <h3>Trabajo en equipo y resolución de problemas</h3>
+              <p>
+                Participación en trabajos grupales donde se analizan requerimientos,
+                se distribuyen tareas y se construyen soluciones de software.
+              </p>
+              <div class="timeline-tags">
+                <span>Git</span>
+                <span>Trabajo en equipo</span>
+                <span>Documentación</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="educacion" class="section-padding">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">FORMACIÓN</span>
+          <h2 class="section-title">Educación</h2>
+        </div>
+
+        <div class="education-card reveal">
+          <div class="education-icon">
+            <i class="bi bi-mortarboard-fill"></i>
+          </div>
+
+          <div>
+            <span class="education-status">En curso</span>
+            <h3>Diseño y Desarrollo de Software</h3>
+            <h4>TECSUP</h4>
+            <p>
+              Formación orientada al desarrollo de aplicaciones, programación,
+              bases de datos, desarrollo web, infraestructura tecnológica
+              y buenas prácticas de software.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section-padding skills-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">TECNOLOGÍAS</span>
+          <h2 class="section-title">Mis habilidades</h2>
+          <p class="section-description">
+            Algunas herramientas y tecnologías que he utilizado durante mi formación.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+            <div class="skill-card">
+              <i class="bi bi-filetype-html"></i>
+              <h3>HTML</h3>
+              <span>Estructura web</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+            <div class="skill-card">
+              <i class="bi bi-filetype-css"></i>
+              <h3>CSS</h3>
+              <span>Diseño web</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+            <div class="skill-card">
+              <i class="bi bi-filetype-js"></i>
+              <h3>JavaScript</h3>
+              <span>Interactividad</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+            <div class="skill-card">
+              <i class="bi bi-hdd-stack"></i>
+              <h3>Node.js</h3>
+              <span>Backend</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+            <div class="skill-card">
+              <i class="bi bi-diagram-3"></i>
+              <h3>Express</h3>
+              <span>Servidor web</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+            <div class="skill-card">
+              <i class="bi bi-database"></i>
+              <h3>MySQL</h3>
+              <span>Base de datos</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+            <div class="skill-card">
+              <i class="bi bi-git"></i>
+              <h3>Git</h3>
+              <span>Control de versiones</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+            <div class="skill-card">
+              <i class="bi bi-bootstrap"></i>
+              <h3>Bootstrap</h3>
+              <span>Diseño responsive</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section-padding">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">PORTAFOLIO</span>
+          <h2 class="section-title">Mis proyectos</h2>
+          <p class="section-description">
+            Algunos ejemplos de proyectos realizados durante mi aprendizaje.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="project-card">
+              <div class="project-icon">
+                <i class="bi bi-window"></i>
+              </div>
+              <span class="project-number">01</span>
+              <h3>Página web</h3>
+              <p>
+                Sitio web desarrollado con HTML, CSS y JavaScript para practicar
+                estructura, diseño e interacción.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="project-card featured-project">
+              <div class="project-icon">
+                <i class="bi bi-server"></i>
+              </div>
+              <span class="project-number">02</span>
+              <h3>Servidor con Node.js</h3>
+              <p>
+                Proyecto creado con Node.js y Express para comprender rutas,
+                archivos estáticos y funcionamiento de un servidor web.
+              </p>
+              <div class="project-tech">
+                <span>Node.js</span><span>Express</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="project-card">
+              <div class="project-icon">
+                <i class="bi bi-database-check"></i>
+              </div>
+              <span class="project-number">03</span>
+              <h3>Sistema con base de datos</h3>
+              <p>
+                Aplicación académica enfocada en registrar, consultar y organizar
+                información mediante una base de datos.
+              </p>
+              <div class="project-tech">
+                <span>MySQL</span><span>Backend</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section-padding contact-section">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5 reveal">
+            <span class="section-kicker light-kicker">CONTACTO</span>
+            <h2 class="contact-title">¿Tienes una idea o mensaje?</h2>
+            <p class="contact-text">
+              Puedes completar el formulario y dejarme un mensaje.
+              Los campos son obligatorios para poder enviarlo.
+            </p>
+
+            <div class="contact-feature">
+              <i class="bi bi-send-check"></i>
+              <div>
+                <strong>Formulario funcional</strong>
+                <span>Procesado mediante Node.js y Express.</span>
+              </div>
+            </div>
+
+            <div class="contact-feature">
+              <i class="bi bi-shield-check"></i>
+              <div>
+                <strong>Validación básica</strong>
+                <span>El servidor revisa los datos enviados.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 reveal">
+            <form action="/contacto" method="POST" class="contact-card">
+              <div class="row g-3">
+
+                <div class="col-md-6">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <div class="input-group-custom">
+                    <i class="bi bi-person"></i>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nombre"
+                      name="nombre"
+                      placeholder="Tu nombre"
+                      required
+                    >
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="correo" class="form-label">Correo electrónico</label>
+                  <div class="input-group-custom">
+                    <i class="bi bi-envelope"></i>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="correo"
+                      name="correo"
+                      placeholder="correo@ejemplo.com"
+                      required
+                    >
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea
+                    class="form-control custom-textarea"
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Escribe tu mensaje..."
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary w-100 contact-submit">
+                    Enviar mensaje
+                    <i class="bi bi-send ms-2"></i>
+                  </button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="custom-footer">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <p class="mb-0">
+          © <span id="anio"></span> Marco Figueroa
+        </p>
+        <p class="mb-0 footer-note">
+          Desarrollado con Node.js, Express y Bootstrap
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Volver arriba">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <script src="/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "portafolio-node",
+  "version": "1.0.0",
+  "description": "Portafolio personal desarrollado con Node.js, Express y Bootstrap.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "bootstrap",
+    "portafolio"
+  ],
+  "author": "Marco Fabian Figueroa Cordova",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
